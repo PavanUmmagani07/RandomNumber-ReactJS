@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  background-color: #f3d2d5;
+  border-radius: 12px;
+  width: 42%;
+  padding: 15px;
+  box-shadow: #ffffff;
+}
+
+@media screen and (min-width: 576px) {
+  .app-container {
+    width: 50%;
+    max-width: 500px;
+  }
+}
+
+.title {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .title {
+    font-size: 16px;
+  }
+}
+
+.paragraph {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .paragraph {
+    font-size: 15px;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  padding: 8px;
+  border-color: #0b69ff;
+  border-radius: 8px;
+}
+
+.number {
+  color: #0b69ff;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 576px) {
+  .number {
+    font-size: 15px;
+  }
+}
